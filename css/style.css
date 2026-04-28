@@ -38,5 +38,28 @@ textarea [
 
 .cabecalho h3{
     color: antiquewhite;
+
+}
+
+.form-container{
+    background-color: solid blueviolet;
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+    top: -46%;
+}
+
+.form-header{
+    border-bottom: 1px solid cadetblue;
+    height: 45px;
+}
+
+.form-header p {
+    color: blue;
+    border-bottom: 2px solid chartreuse;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+    text-transform: uppercase;
     
 }

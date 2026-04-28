@@ -18,44 +18,44 @@
         <div class="form-body">
             <h1>Venda fácil seu carro</h1>
             <p>Descreva as características dos seu carro e marque os opcionais que ele possui</p>
-            <form onsubmit="">
-                <div>
+            <form onsubmit="salvarCarros(event)">
+                <div class="caixaInputs">
                     <label for="title">Título do Anúncio <span>*</span></label>
-                    <input type="text" name="title" id="title" placeholder="Um título para anunciar seu carro">
+                    <input type="text" name="title" id="title" class="block " placeholder="Um título para anunciar seu carro">
                 </div>
 
-                <div>
+                <div class="caixaInputs">
                     <label for="preco">Preço <span>*</span></label>
-                    <input type="number" name="preco" id="preco" placeholder="Defina o preço">
+                    <input type="number" name="preco" id="preco"  class="block " placeholder="Defina o preço">
                 </div>
 
-                <div>
+                <div class="caixaInputs">
                     <label for="descricao">Descrição <span>*</span></label>
-                    <textarea name="descricao" id="descricao" placeholder="Faça a descrição de seu veículo"></textarea>
+                    <textarea name="descricao" id="descricao"  class="block " placeholder="Faça a descrição de seu veículo"></textarea>
                 </div>
 
-                <div>
-                    <label for="marca">Marca <span>*</span></label>
-                    <input type="text" name="marca" id="marca" placeholder="Marca do veículo">
+                <divass class="caixaInputs">
+                    <label for="marca">Marca <span class="campo-orbigatorio">*</span></label>
+                    <input type="text" name="marca" id="marca"  class="block " placeholder="Marca do veículo">
                 </div>
 
-                <div>
+                <div  class="caixaInputs">
                     <label for="modelo">Modelo <span>*</span></label>
-                    <input type="text" name="modelo" id="modelo" placeholder="Modelo do veículo">
+                    <input type="text" name="modelo" id="modelo"  class="block " placeholder="Modelo do veículo">
                 </div>
 
-                <div>
-                    <label for="kilometragem">Kilometragem <span>*</span></label>
-                    <input type="number" name="kilometragem" id="kilometragem" placeholder="Kilometragem do veículo">
+                <div  class="caixaInputs">
+                    <label for="kilometragem">Kilometragem <span class="campo-orbigatorio">*</span></label>
+                    <input type="number" name="kilometragem" id="kilometragem"  class="block " placeholder="Kilometragem do veículo">
                 </div>
 
-                <div>
-                    <label for="data-de-compra">Data de Compra <span>*</span></label>
-                    <input type="date" name="data-de-compra" id="data-de-compra">
+                <div  class="caixaInputs">
+                    <label for="data-de-compra">Data de Compra <span class="campo-orbigatorio">*</span></label>
+                    <input type="date" name="data-de-compra" id="data-de-compra"  class="block ">
                 </div>
 
-                <div>
-                    <p>Tipo de Câmbio: <span>*</span></p>
+                <div  class="caixaInputs">
+                    <p>Tipo de Câmbio: <span class="campo-orbigatorio">*</span></p>
                     <input type="radio" name="marcha" id="manual">
                     <label for="manual">Manual</label>
                     <input type="radio" name="marcha" id="auto">
@@ -102,7 +102,7 @@
                 </div>
                 <div>
                     <p>
-                        fotos do carro <span>*</span>
+                        fotos do carro <span class="campo-orbigatorio">*</span>
                     </p>
                     <input type="file" name="imagem" id="imagem" multiple accept="image/png, image/jpg"> 
                 </div>
